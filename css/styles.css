@@ -81,6 +81,10 @@ a {
   color: var(--white-color);
   cursor: pointer;
 }
+.main-title-btn:hover,
+.main-title-btn:focus {
+  background: #188ce8;
+}
 /* Benefits */
 .hiden {
   opacity: 0;
@@ -127,6 +131,7 @@ a {
   background-color: var(--second-background-color);
 }
 .footer-link-adress {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
